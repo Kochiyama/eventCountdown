@@ -1,5 +1,5 @@
-import { sec, setDate, setTime, showTime, showWeekday } from './modules/clock.js';
-import { updateCounter, createEvent } from './modules/countdown.js';
+import { sec, setDate, setTime, showTime, showWeekday } from './clock.js';
+import { updateCounter, createEvent } from './countdown.js';
 
 //create a event listener to the form add Event
 const eventForm = document.querySelector(".eventAdder");
