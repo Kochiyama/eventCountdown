@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Countdown</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="logo">EVENT COUNTDOWN</h1>
+    <div class="clock">
+      <p class="weekday">Weekday</p>
+      <p class="date">dd/mm/yyyy</p>
+      <p class="time">00:00:00</p>
+    </div>
+  </div>
+  <div class="countdown">
+    <h2 class="counter">Faltam <strong class="days">XX dias</strong> para</h2>
+  </div>
+    <h1 class="event_title">evento</h1>
+  <div class="footer">
+    <form class="eventAdder">
+      <input class="eventTitle" type="text">
+      <input class="eventDate" type="date">
+      <input class="eventTime" type="time" step="1">
+      
+      <button type="submit">+ADD Event</button>
+    </form>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
